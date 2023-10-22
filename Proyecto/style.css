@@ -1,0 +1,203 @@
+body{
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+.container_login{
+    display: grid;
+    height: 50.8em;
+    width: 50em;
+    border: solid;
+    margin-left: 35em;
+}
+.container_landing{
+    height: 45.8em;
+    width: 120em;
+    border: solid;
+}
+.imagen{
+    border: solid;
+    height: 10em;
+    width: 10em;
+    margin: auto;
+}
+#caja_img_login{
+    height: 10em;
+    width: 10em;
+    margin: auto;
+}
+.user_name {
+    border: solid;
+    height: 2em;
+    width: 15em;
+    margin: auto;
+    display: grid;
+
+}
+.user_passwd {
+    border: solid;
+    height: 2em;
+    width: 15em;
+    margin: auto;
+    display: grid;
+    margin-top: -2em;
+}
+.container_boton{
+    margin: auto;
+    margin-top: -2em;
+}
+#Siguiente{
+    height: 2em;
+    width: 19em;
+}
+.container_logueado{
+    display: grid;
+    height: 48em;
+    width: 115em;
+    border: solid;
+    margin: auto;
+    margin-top: 2em;
+}
+.catalogue_bar {
+    width: 115em;
+    height:10em;
+    display: grid;
+    margin: auto;    
+    border-style: solid;
+}
+.elements_catalogue {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    border-style: solid;
+    margin-left: 45em;
+    width: 20em;
+}
+li{
+    margin-left: 5em;
+}
+.user_img{
+    border-style: solid;
+    border-radius: 50%;
+    height: 5em;
+    width:5em;
+    margin-left: 109em;
+    margin-top: 1em;
+    background-image: url(images/pepe.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    border-style: solid;
+    width: 15em;
+    height: 5em;
+    margin-top: 2em;
+    text-align: center;
+}
+.logo > p{
+    height: 2em;
+    width: 10em;
+    border-style: solid;
+    display: grid;
+    margin: auto;
+    margin-top: 1.5em;
+}
+.container_content {
+    border-style: solid;
+    display: grid;
+    margin: auto;
+    width: 110em;
+    height: 44em;
+    margin-top: 3em;
+    margin-left: 3em;
+    position: absolute;
+}
+.log_out{
+    width: 5em;
+    display: grid;
+    margin: auto;
+    margin-top: 5.5em;
+    position: absolute;
+}
+.log_out > a{
+    text-decoration: none;
+    display: grid;
+    border-style: solid;
+    width: 5em;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+.user_profile{
+    width: 5em;
+    display: grid;
+    margin: auto;
+    margin-top: 5.5em;
+    position: absolute;
+    margin-left: -6em;
+}
+.user_profile> a{
+    text-decoration: none;
+    display: grid;
+    border-style: solid;
+    width: 5em;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+.catalogue_log_in{
+    border-style: solid;
+    border-color: white;
+    height: 3em;
+    width: 27em;
+    margin-block-start: auto;
+    margin-left: 87.7em;
+}
+.catalogue_log_in > a {
+    text-decoration: none;
+    border-style: solid;
+    display: inline-block;
+    width: 10em;
+    margin-left: 2em;
+    margin-top: 1em;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+.exit{
+    width: 5em;
+    display: grid;
+    margin: auto;
+    margin-top: 7em;
+    position: absolute;
+    margin-left: 102em;
+}
+.exit > a{
+    text-decoration: none;
+    border-style: solid;
+    display: inline-block;
+    width: 10em;
+    margin-left: 2em;
+    margin-top: 1em;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
