@@ -26,7 +26,7 @@ body{
     width: 10em;
     margin: auto;
 }
-.user_name {
+.user_name{
     border: solid;
     height: 2em;
     width: 15em;
@@ -195,9 +195,89 @@ section {
     padding: 40px;
     text-align: center;
 }
+.user_config{
+    display: grid;
+    width: 114.6em;
+    height: 5em;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+.container_perfil{
+    display: grid;
+    width: 115em;
+    height: 40.5em;
+    margin: auto;
+    margin-top: 0.1em;
+    background-color: #6b6a6a;
+}
+.container_passw{
+    border-style: solid;
+    margin:2em;
+    width: 19em;
+    height: 7em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5em;
+    margin-top: 5em;
+}
+.passw{
+    margin-left:2em;
+}
+.container_email{
+    border-style: solid;
+    margin:2em;
+    width: 19em;
+    height: 7em;
+    text-align: center;
+    margin: auto;
+    margin-top: 2em;
+}
 footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+.container_config {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.config_sections{
+    width: 20em;
+    height: 35.2em;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin-left: -94.6em;
+    margin-top: -26.7em;
+    border-style: solid;
+    border-color: black;
+    border-top: none;
+}
+.config_sections ul {
+padding: 0;
+margin: 0;
+}
+
+.config_sections li {
+display: block;
+margin: auto;
+}
+
+.config_sections a {
+display: block;
+padding: 8px 16px;
+background-color: #f2f2f2;
+color: #333;
+text-decoration: none;
+margin-top: 0.5em;
+}
+
+.config_sections a:hover {
+background-color: #ddd;
 }
