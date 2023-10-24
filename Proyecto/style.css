@@ -28,20 +28,28 @@ body{
     margin: auto;
 }
 .user_name{
-    border: solid;
-    height: 2em;
-    width: 15em;
-    margin: auto;
-    display: grid;
 
-}
-.user_passwd {
-    border: solid;
     height: 2em;
     width: 15em;
     margin: auto;
     display: grid;
     margin-top: -2em;
+
+}
+.user_name > h3{
+    margin-top: -6em;
+    margin: auto;
+}
+.user_passwd {
+    height: 2em;
+    width: 15em;
+    margin: auto;
+    display: grid;
+    margin-top: -5em;
+}
+.user_passwd > h3{
+    margin-top: -6em;
+    margin: auto;
 }
 .container_boton{
     margin: auto;
