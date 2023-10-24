@@ -271,6 +271,7 @@ Tamaño Teléfono
         display: grid;
         background-color: #3a3939;
         margin-left: -1em;
+        width: 24.5em;
     }
     .products {
         width: 360px;
@@ -285,7 +286,12 @@ Tamaño Teléfono
         display: flex;
         border-style: solid;
         background-color: #333;
-        margin-left: -4em;
+        height: 2em;
+        width: 20.6em;
+        text-align: center;
+    }
+    .elements_catalogue > li{
+        margin-left: 1em;
     }
     .catalogue_log_in{
         width: 5em;
