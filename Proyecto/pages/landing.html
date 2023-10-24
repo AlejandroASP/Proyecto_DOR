@@ -1,23 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Landing Page</title>
-  <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Catalogo</title>
 </head>
 <body>
-  <header>
-    <nav class="catalogue_bar">
-          <div class="logo">
-            <a href="landing.html"></a>
+    <header>
+        <nav class="catalogue_bar">
+          <div>
+              <div class="logo">
+                <a href="landing.html"></a>
+            </div>
           </div>
-    </nav>
-</header>
-  <section>
-    <div class="container_landing">
-        <a href="login.html">ads</a>
-    </div>
-  </section>
+            <h1>NotTooLate</h1>
+        </nav>
+    </header>
+    <main>
+        <div class="container_landing">
+          <div class="carousel">
+            <input type="radio" id="slide1" name="slides" checked>
+            <input type="radio" id="slide2" name="slides">
+            <input type="radio" id="slide3" name="slides">
+            
+            <div class="carousel-inner">
+              <div class="slide">
+                <img src="../images/recompensa.jpg" alt="Imagen 1">
+              </div>
+              <div class="slide">
+                <img src="../images/fondo.avif" alt="Imagen 2">
+              </div>
+              <div class="slide">
+                <img src="../images/recompensa.jpg" alt="Imagen 3">
+              </div>
+            </div>
+
+            <div class="carousel-nav">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+            </div>
+          </div>
+
+          <div class="notice_main">
+            <div class="notice_products">
+              <a href="catalogue.html">Productos</a>
+            </div>
+            <div class="notice_game">
+              <a href="catalogue.html">Juegos</a>
+            </div>
+            <div class="notice_updates">
+              <a href="catalogue.html">Actualizaciones</a>
+            </div>
+          </div>
+        </div>
+    </main>
   <footer>
+    <div class="redes">
+        <p>hola</p>
+    </div>
+    <div class="contacto">
+        <p>hola</p>
+    </div>
+    <div class="us">
+        <p>hola</p>
+    </div>
     <p>Derechos de autor &copy; Alejandro Serafin Paredes</p>
   </footer>
 </body>
