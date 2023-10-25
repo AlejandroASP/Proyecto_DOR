@@ -970,6 +970,7 @@ Tamaño Escritorio pequeño/tablet
     .passw {
         margin-left: 2em;
     }
+    
     .container_email {
         border-style: solid;
         margin: 2em;
@@ -981,12 +982,12 @@ Tamaño Escritorio pequeño/tablet
     .container_email input:valid{
         background-color: lightgreen;
     }
+    .container_email input:invalid{
+        background-color: lightcoral;
+    }
     .container_email input:placeholder-shown{
         border: 1px solid #ccc;
         background-color: transparent;
-    }
-    .container_email input:invalid{
-        background-color: lightcoral;
     }
     .container_landing {
         height: 45.8em;
