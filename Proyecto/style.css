@@ -1,21 +1,7 @@
-.user_passwd {
-    height: 2em;
-    width: 15em;
-    margin: auto;
-    display: grid;
-    margin-top: -5em;
-}
-.user_passwd > h3{
-    margin-top: -6em;
-    margin: auto;
-}
-.container_boton{
-    margin: auto;
-    margin-top: -2em;
-}
 /* 
 Tamaño Teléfono
 */
+
 @media screen and (max-width: 575px){
     body{
         background-color: blueviolet;
@@ -78,7 +64,6 @@ Tamaño Teléfono
         background-color: #3a3939;
         margin-left: -1em;
         width: 24.5em;
-        height: 65em;
     }
     .products {
         width: 325px;
@@ -88,6 +73,14 @@ Tamaño Teléfono
         gap: 5px;
         margin-left: 2.5em;
         margin-top: 1em;
+    }
+    .promo{
+        width: 98%;
+        text-align: center;
+        background-color: blueviolet;
+        border-style: solid;
+        height: 4%;
+        margin-top: 2em;
     }
     /*telefono */
     .products  p{
@@ -99,7 +92,6 @@ Tamaño Teléfono
         height: 7em;
     }
     .products  div{
-        border-style: solid;
         background-color: white;
         width: 10em;
         height: 12em;
@@ -165,7 +157,7 @@ Tamaño Teléfono
     }
     .container_perfil{
         width:23.5em;
-        height: 32em;
+        display: grid;
         margin-top: 0.1em;
         background-color: #6b6a6a;
     }
@@ -277,19 +269,24 @@ Tamaño Teléfono
         margin-top: 1em;
         background-image: url(images/recompensa.jpg);
         background-size: cover;
-        margin-left: 1em;
+        margin-left: 4em;
         
     }
     .notice_products a{
         width: 99%;
         height: 99%;
-        display: block;
         margin: auto;
         text-decoration: none;
-        color: white;
-        border-style: solid;
-        text-align:end;
         font-size: xx-large;
+    }
+    .notice_products > a > p{
+        background-color: white;
+        color: black;
+        text-align: center;
+        display: grid;
+        margin: auto;
+        width: 100%;
+        margin-top: 3.8em;
     }
     .notice_game{
         display: grid;
@@ -299,18 +296,24 @@ Tamaño Teléfono
         margin-top: 1em;
         background-image: url(images/recompensa.jpg);
         background-size: cover;
-        margin-left: 1em;
+        margin-left: 4em;
     }
     .notice_game a{
         width: 99%;
         height: 99%;
-        display: block;
         margin: auto;
         text-decoration: none;
-        color: white;
-        border-style: solid;
         text-align:end;
         font-size: xx-large;
+    }
+    .notice_game > a > p{
+        background-color: white;
+        color: black;
+        text-align: center;
+        display: grid;
+        margin: auto;
+        width: 100%;
+        margin-top: 3.8em;
     }
     .notice_updates{
         display: grid;
@@ -320,25 +323,81 @@ Tamaño Teléfono
         margin-top: 1em;
         background-image: url(images/recompensa.jpg);
         background-size: cover;
-        margin-left: 1em;
+        margin-left: 4em;
     }
     .notice_updates a{
         width: 99%;
         height: 99%;
-        display: block;
         margin: auto;
         text-decoration: none;
-        color: white;
-        border-style: solid;
-        text-align:end;
         font-size: xx-large;
+    }
+    .notice_updates > a > p{
+        background-color: white;
+        color: black;
+        text-align: center;
+        display: grid;
+        margin: auto;
+        width: 100%;
+        margin-top: 3.8em;
+    }
+    .container_login {
+        width: 100%;
+        background-color: #6b6a6a;
+        display: grid;
+        border-style: solid;
+    }
+    .container_parameters {
+        height: 50%;
+        width: 80%;
+        background: linear-gradient(to bottom, #6b6a6a, #000000);
+        display: grid;
+        margin: auto;
+        border-style: solid;
+        margin-top: 5em;
+        color: white;
+      }
+    .imagen {
+        display: grid;
+        margin: auto;
+        height: 45em;
+    }
+    .user_name {
+        display: grid;
+        margin: auto;
+        text-align: center;
+        margin-top: -38em;
+    }
+    .user_passwd {
+        display: grid;
+        margin: auto;
+        text-align: center;
+        margin-top: -31em;
+    }
+    .container_email input:valid{
+        background-color: lightgreen;
+    }
+    .container_email input:placeholder-shown{
+        border: 1px solid #ccc;
+        background-color: transparent;
+    }
+    .container_email input:invalid{
+        background-color: lightcoral;
+    }
+    .container_boton {
+        display: grid;
+        margin: auto;
+        margin-top: -26em;
     }
     footer {
         background-color: #333;
         color: #fff;
         padding: 20px;
+        width: 89.5%;
     }
 }
+
+
 /* 
 Tamaño Escritorio pequeño/tablet
 */
@@ -352,7 +411,7 @@ Tamaño Escritorio pequeño/tablet
         background-color: #333;
         color: #fff;
         text-align: center;
-        width: 47.99em;
+        width: 100%;
         margin-top: -1em;
     }
     .catalogue_bar {
@@ -361,7 +420,7 @@ Tamaño Escritorio pequeño/tablet
     }
     .catalogue_bar h1 {
         color: white;
-        margin-top: -1.5em;
+        margin-top: -2em;
         font-size: x-large;
         margin-left: 1em;
     }
@@ -372,7 +431,7 @@ Tamaño Escritorio pequeño/tablet
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        margin-top: 1.5em;
+        margin-top: 1em;
     }
     .logo a {
         display: block;
@@ -382,7 +441,7 @@ Tamaño Escritorio pequeño/tablet
     .catalogue_log_in {
         width: 5em;
         margin-left: 42em;
-        margin-top: -4.5em;
+        margin-top: -4em;
         height: 5em;
     }
     .catalogue_log_in > a {
@@ -400,7 +459,6 @@ Tamaño Escritorio pequeño/tablet
         margin-top: -0.5em;
     }
     .container_content {
-        display: grid;
         background-color: #3a3939;
         margin-left: -1em;
         width: 49em;
@@ -414,13 +472,20 @@ Tamaño Escritorio pequeño/tablet
     /*tablet */
     .products {
         width: 740px;
-        height: 768px;
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(3, 1fr);
         gap: 8px;
-        margin-left: 2.5em;
+        margin-left: 2em;
         margin-top: 1em;
+    }
+    .promo{
+        width: 99%;
+        text-align: center;
+        background-color: blueviolet;
+        border-style: solid;
+        height: 3%;
+        margin-top: 2em;
     }
     .products  p{
         margin-top: 1em;
@@ -451,7 +516,7 @@ Tamaño Escritorio pequeño/tablet
         border-radius: 50%;
         height: 3em;
         width: 3em;
-        margin-top: -4.3em;
+        margin-top: -4em;
         margin-left: 44em;
         background-image: url(images/pepe.jpeg);
         background-size: cover;
@@ -488,14 +553,19 @@ Tamaño Escritorio pequeño/tablet
         background-color: white;
     }
     .container_perfil {
-        width: 47.96em;
-        height: 32em;
+        height: 47.96em;
         margin-top: 0.1em;
+        background-color: #6b6a6a;
+    }
+    .container_config {
+        width: 47.96em;
+        display: grid;
+        margin-top: 10em;
         background-color: #6b6a6a;
     }
     .user_config {
         display: grid;
-        width: 47.5em;
+        width: 99.2%;
         height: 5em;
         background-color: #333;
         color: white;
@@ -542,7 +612,7 @@ Tamaño Escritorio pequeño/tablet
         transition: transform 0.5s ease-in-out;
     }
     .slide {
-    flex: 1;
+        flex: 1;
     }
     .slide img {
         width: 100%;
@@ -638,8 +708,55 @@ Tamaño Escritorio pequeño/tablet
         text-decoration: none;
         color: white;
         border-style: solid;
-        text-align:end;
         font-size: xx-large;
+    }
+    .container_login {
+        width: 100%;
+        background-color: #6b6a6a;
+        display: grid;
+        border-style: solid;
+    }
+    .container_parameters {
+        height: 50%;
+        width: 50%;
+        background: linear-gradient(to bottom, #6b6a6a, #000000);
+        display: grid;
+        margin: auto;
+        border-style: solid;
+        margin-top: 8em;
+        color: white;
+      }
+    .imagen {
+        display: grid;
+        margin: auto;
+        height: 45em;
+    }
+    .user_name {
+        display: grid;
+        margin: auto;
+        text-align: center;
+        margin-top: -35em;
+    }
+    .user_passwd {
+        display: grid;
+        margin: auto;
+        text-align: center;
+        margin-top: -30em;
+    }
+    .container_email input:valid{
+        background-color: lightgreen;
+    }
+    .container_email input:placeholder-shown{
+        border: 1px solid #ccc;
+        background-color: transparent;
+    }
+    .container_email input:invalid{
+        background-color: lightcoral;
+    }
+    .container_boton {
+        display: grid;
+        margin: auto;
+        margin-top: -24em;
     }
     footer {
         background-color: #333;
@@ -647,7 +764,19 @@ Tamaño Escritorio pequeño/tablet
         padding: 20px;
         text-align: center;
     }
+    .footer-section {
+        flex: 1;
+        margin: 0 10px;
+    }
+    
+    h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 }
+
+
+
 /* Escritorio grande */
 @media screen and (min-width: 1200px){
     body {
@@ -690,9 +819,9 @@ Tamaño Escritorio pequeño/tablet
     .catalogue_log_in {
         display: grid;
         margin:auto;
-        width: 20em;
+        width: 10em;
         height: 2em;
-        margin-left: 104em;
+        margin-left: 110em;
         margin-top: -3.5em;
     }
     .catalogue_log_in > a {
@@ -706,8 +835,7 @@ Tamaño Escritorio pequeño/tablet
     }
     .container {
         display: grid;
-        margin: auto;
-        margin-top: -0.5em;
+        height: 10%;
     }
     .container_content {
         background-color: #3a3939;
@@ -721,12 +849,19 @@ Tamaño Escritorio pequeño/tablet
     }
     .products{
         width: 1366px;
-        height: 768px;
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(4, 1fr);
         gap: 50px;
         margin-left: 15em;
+    }
+    .promo{
+        width: 100%;
+        text-align: center;
+        background-color: blueviolet;
+        border-style: solid;
+        height: 3%;
+        margin-top: 2em;
     }
     .products  p{
         display: grid;
@@ -766,10 +901,10 @@ Tamaño Escritorio pequeño/tablet
     }
     .user_img {
         border-radius: 50%;
-        height: 5em;
-        width: 5em;
-        margin-top: -3.2em;
-        margin-left: 120em;
+        height: 4em;
+        width: 4em;
+        margin-top: -3em;
+        margin-left: 115em;
         background-image: url(images/pepe.jpeg);
         background-size: cover;
         background-position: center;
@@ -781,8 +916,8 @@ Tamaño Escritorio pequeño/tablet
     }
     .log_out {
         width: 5em;
-        margin-top: -3em;
-        margin-left:113em;
+        margin-top: -2.5em;
+        margin-left:108em;
     }
     .log_out > a {
         text-decoration: none;
@@ -796,7 +931,7 @@ Tamaño Escritorio pequeño/tablet
     .exit {
         width: 5em;
         margin-top: -1em;
-        margin-left: 118em;
+        margin-left: 112em;
     }
     .exit > a {
         text-decoration: none;
@@ -843,6 +978,16 @@ Tamaño Escritorio pequeño/tablet
         text-align: center;
         margin: auto;
     }
+    .container_email input:valid{
+        background-color: lightgreen;
+    }
+    .container_email input:placeholder-shown{
+        border: 1px solid #ccc;
+        background-color: transparent;
+    }
+    .container_email input:invalid{
+        background-color: lightcoral;
+    }
     .container_landing {
         height: 45.8em;
         width: 100%;
@@ -851,9 +996,9 @@ Tamaño Escritorio pequeño/tablet
     }
     .carousel {
         position: relative;
-        width: 100%;
+        width: 80%;
         overflow: hidden;
-        margin-left: 20em;
+        margin-left: 25em;
     }
     .carousel-inner {
         display: flex;
@@ -916,8 +1061,18 @@ Tamaño Escritorio pequeño/tablet
         text-decoration: none;
         color: white;
         border-style: solid;
-        text-align:end;
+        text-align:center;
         font-size: xx-large;
+    }
+    .notice_products > a > p{
+        display: grid;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: white;
+        color: black;
+        margin-top: 8.6em;
     }
     .notice_game{
         display: grid;
@@ -941,6 +1096,16 @@ Tamaño Escritorio pequeño/tablet
         text-align:end;
         font-size: xx-large;
     }
+    .notice_game > a > p{
+        display: grid;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: white;
+        color: black;
+        margin-top: 8.6em;
+    }
     .notice_updates{
         display: grid;
         margin: auto;
@@ -963,10 +1128,67 @@ Tamaño Escritorio pequeño/tablet
         text-align:end;
         font-size: xx-large;
     }
+    .notice_updates > a > p{
+        display: grid;
+        margin: auto;
+        width:80%;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: white;
+        color: black;
+        margin-top: 8.6em;
+    }
+    .container_login {
+        width: 100%;
+        background-color: #6b6a6a;
+        display: grid;
+        border-style: solid;
+    }
+    .container_parameters {
+        height: 50%;
+        width: 20%;
+        background: linear-gradient(to bottom, #6b6a6a, #000000);
+        display: grid;
+        margin: auto;
+        border-style: solid;
+        margin-top: 5em;
+        color: white;
+      }
+    .imagen {
+        display: grid;
+        margin: auto;
+        height: 45em;
+    }
+    .user_name {
+        display: grid;
+        margin: auto;
+        text-align: center;
+        margin-top: -35em;
+    }
+    .user_passwd {
+        display: grid;
+        margin: auto;
+        text-align: center;
+        margin-top: -30em;
+    }
+    .container_boton {
+        display: grid;
+        margin: auto;
+        margin-top: -24em;
+    }
     footer {
         background-color: #333;
         color: #fff;
         padding: 20px;
         text-align: center;
+    }
+    .footer-section {
+        flex: 1;
+        margin: 0 10px;
+    }
+    
+    h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 }
