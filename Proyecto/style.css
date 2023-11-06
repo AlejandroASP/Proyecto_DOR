@@ -1,3 +1,12 @@
+
+@font-face {
+    font-family: Agbalumo;
+    src: url(fonts/Agbalumo/Agbalumo-Regular.ttf);
+}
+@font-face {
+    font-family: twitchy-tv;
+    src: url(fonts/Twitchy.TV.ttf);
+}
 /* 
 Tamaño Teléfono
 */
@@ -22,8 +31,10 @@ Tamaño Teléfono
     
     .catalogue_bar  h1{
         color: white;
-        margin-top: -1.2em;
-        font-size:x-large;
+        text-shadow: 5px 5px 1px #6441A5;
+        margin-top: -2.5em;
+        font-family: "twitchy-tv";
+        font-size:large;
         margin-left: 1em;
     }
     .logo {
@@ -419,8 +430,10 @@ Tamaño Escritorio pequeño/tablet
         padding: 0.2em;
     }
     .catalogue_bar h1 {
+        font-family: "twitchy-tv";
         color: white;
-        margin-top: -2em;
+        text-shadow: 5px 5px 1px #6441A5;
+        margin-top: -3.2em;
         font-size: x-large;
         margin-left: 1em;
     }
@@ -779,7 +792,21 @@ Tamaño Escritorio pequeño/tablet
 
 /* Escritorio grande */
 @media screen and (min-width: 1200px){
+    /* :root {
+        --color-primario: #38393b;
+        --color-secundario: ;
+        --color-terciario: #0000FF;
+      } */
+    @font-face {
+        font-family: Agbalumo;
+        src: url(fonts/Agbalumo/Agbalumo-Regular.ttf);
+    }
+    @font-face {
+        font-family: twitchy-tv;
+        src: url(fonts/Twitchy.TV.ttf);
+    }
     body {
+        font-family: "Agbalumo";
         background-color: blueviolet;
         margin: 0;
         padding: 0;
@@ -798,10 +825,12 @@ Tamaño Escritorio pequeño/tablet
     .catalogue_bar  h1 {
         display: grid;
         margin: auto;
-        color: white;
+        color: rgb(255, 255, 255);
+        text-shadow: 5px 5px 1px #6441A5;
         font-size: xx-large;
         margin-left: 1em;
-        margin-top: -2em;
+        margin-top: -3em;
+        font-family: "twitchy-tv";
     }
     .logo {
         width: 20em;
