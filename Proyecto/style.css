@@ -1,11 +1,14 @@
 
 @font-face {
-    font-family: Agbalumo;
-    src: url(fonts/Agbalumo/Agbalumo-Regular.ttf);
+    font-family: Rigtheous;
+    src: url(fonts//Fjalla_One/FjallaOne-Regular.ttf);
 }
 @font-face {
     font-family: twitchy-tv;
     src: url(fonts/Twitchy.TV.ttf);
+}
+body{
+    font-family: "Rigtheous";
 }
 /* 
 Tamaño Teléfono
@@ -797,16 +800,7 @@ Tamaño Escritorio pequeño/tablet
         --color-secundario: ;
         --color-terciario: #0000FF;
       } */
-    @font-face {
-        font-family: Agbalumo;
-        src: url(fonts/Agbalumo/Agbalumo-Regular.ttf);
-    }
-    @font-face {
-        font-family: twitchy-tv;
-        src: url(fonts/Twitchy.TV.ttf);
-    }
     body {
-        font-family: "Agbalumo";
         background-color: blueviolet;
         margin: 0;
         padding: 0;
