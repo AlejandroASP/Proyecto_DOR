@@ -820,7 +820,7 @@ Tamaño Escritorio pequeño/tablet
         display: grid;
         margin: auto;
         color: rgb(255, 255, 255);
-        text-shadow: 5px 5px 1px #6441A5;
+        text-shadow: 1px 5px 1px #6441A5;
         font-size: xx-large;
         margin-top: -3em;
         font-family: "twitchy-tv";
