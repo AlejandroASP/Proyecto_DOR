@@ -809,12 +809,7 @@ Tamaño Escritorio pequeño/tablet
         background-color: #333;
         color: #fff;
         text-align: center;
-        width: 100%;
-    }
-    .catalogue_bar {
-        height: 5em;
-        padding: 0.2em;
-
+        width: 118em;
     }
     .catalogue_bar  h1 {
         display: grid;
@@ -845,21 +840,17 @@ Tamaño Escritorio pequeño/tablet
         width: 100%;
     }
     .catalogue_log_in {
-        display: grid;
-        margin:auto;
-        width: 10em;
+        width: 15em;
         height: 2em;
-        margin-left: 110em;
-        margin-top: -3.5em;
+        margin-left: 103em;
+        margin-top: -1em;
     }
     .catalogue_log_in > a {
         text-decoration: none;
-        display: inline-block;
-        margin-top: 1em;
-        text-align: center;
         color: black;
         background-color: white;
         font-size:large;
+        margin-left: 0.5em;
     }
     .container {
         display: grid;
@@ -1019,8 +1010,7 @@ Tamaño Escritorio pequeño/tablet
     }
     .container_landing {
         height: 45.8em;
-        width: 100%;
-        border: solid;
+        width: 99%;
         background-color: #6b6a6a;
     }
     .carousel {
@@ -1208,14 +1198,14 @@ Tamaño Escritorio pequeño/tablet
     footer {
         background-color: #333;
         color: #fff;
-        padding: 20px;
+        height: 10em;
         text-align: center;
+        width: 99%;
     }
     .footer-section {
-        flex: 1;
+        display: inline-block;
         margin: 0 10px;
     }
-    
     h3 {
         font-size: 16px;
         margin-bottom: 10px;
