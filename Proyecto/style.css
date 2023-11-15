@@ -24,46 +24,42 @@ Tamaño Teléfono
         color: #fff;
         text-align: center;
         width: 100%;
-        margin-top: -1em;
     }
     .catalogue_bar {
-        height:5em;
-        padding: 0.2em;
+        display: grid;
+        margin:0 auto;
+        width: 50%;
     }
-    
-    .catalogue_bar  h1{
+
+    .catalogue_bar h1{
         color: white;
         text-shadow: 5px 5px 1px #6441A5;
-        margin-top: -2.5em;
+        margin-top: -2.9em;
         font-family: "twitchy-tv";
         font-size:large;
-        margin-left: 1em;
+        margin-left: -3em;
     }
     .logo {
-        width: 4em;
-        height: 2em;
+        width: 35%;
+        height: 50%;
         background-image: url(images/Clickme.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        margin-top: 2em;
+        margin-top: 1em;
+        margin-left: -21em;
     }
     
-    .logo a {
-        display: block;
-        height: 100%;
-        width: 100%;
-    }
     .catalogue_log_in{
         width: 5em;
-        margin-left: 21em;
-        margin-top: -4.1em;
+        margin-left: 14em;
+        margin-top: -3em;
         height: 5em;
     }
     .catalogue_log_in  a {
         text-decoration: none;
         display: inline-block;
-        margin-top: 1em;
+        margin-top: 0.5em;
         text-align: center;
         color: black;
         background-color: white;
@@ -73,60 +69,83 @@ Tamaño Teléfono
         display: grid;
         margin: auto;
     }
+        /*telefono */
     .container_content {
         background-color: #3a3939;
-        margin-left: -1em;
-        width: 24.5em;
+        width: 94%;
+        margin:0 auto;
+        margin-left: 0.5em;
     }
     .products {
         width: 325px;
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(2, 1fr);
+        display:flex;
+        flex-wrap: wrap;
         gap: 5px;
-        margin-left: 2.5em;
+        margin-left: 2em;
         margin-top: 1em;
+    }
+    .products div img{
+        width: 100%;
+        margin-top: -0.7em;
+    }
+    .products div{
+        background-color: white;
+        width: 10em;
+        height: 10em;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .products  button{
+        height: 1.5em;
+        margin-top: -1em;
     }
     .promo{
         width: 98%;
         text-align: center;
-        background-color: blueviolet;
-        border-style: solid;
-        height: 4%;
-        margin-top: 2em;
+        background-color: red;
+        margin:0 auto;
+        margin-top: 1em;
     }
-    /*telefono */
-    .products  p{
-        margin-top: -5em;
-        margin-left: 4em;
+    .products_promo {
+        width: 325px;
+        display:flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-left: 1.5em;
+        margin-top: -0.5em;
     }
-    div  img{
-        width: 10em;
-        height: 7em;
+    .products_promo div img{
+        width: 100%;
+        margin-top: -0.7em;
     }
-    .products  div{
+    .products_promo div{
         background-color: white;
         width: 10em;
-        height: 12em;
-    }
-    .products div button{
-        height: 1.5em;
-        margin-left: 6.4em;
-        margin-top: 1.5em;
-    }
-    .elements_catalogue {
-        list-style: none;
+        height: 10em;
         display: flex;
-        border-style: solid;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .products_promo  button{
+        height: 1.5em;
+        margin-top: -1em;
+    }
+    .elements_catalogue{
+        list-style-type: none;
+        color: white;
+        font-size: smaller;
         background-color: #333;
-        height: 2em;
-        width: 20.6em;
+        width: 85%;
+        height: 60%;
+        margin-left: 0.5em;
+        display: flex;
+        margin-top: 0.5em;
     }
     .elements_catalogue > li{
-        margin-left: 2.5em;
-        font-size: smaller;
-        color: white;
-        margin-top: 0.5em;
+        margin: auto;
     }
     .user_img{
         border-radius: 50%;
@@ -401,8 +420,11 @@ Tamaño Teléfono
     }
     footer {
         background-color: #333;
+        margin-top: 5%;
         color: #fff;
-        padding-top: 2em;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
 
