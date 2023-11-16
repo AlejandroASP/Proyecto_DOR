@@ -101,6 +101,67 @@ Tamaño Teléfono
         height: 1.5em;
         margin-top: -1em;
     }
+    .products button a{
+        text-decoration: none;
+        color: black;
+        margin-top: -1em;
+    }
+    .container_content_prod {
+        background-color: #3a3939;
+        margin-left: -1em;
+        width: 49em;
+    }
+    .container_img_prod {
+        width: 50%;
+        display: grid;
+        border-style: solid;
+    }
+    .container_img_prod img{
+        width: 100%;
+    }
+    .text_product {
+        margin-left: 51.5%;
+        border-style: solid;
+        width: 47%;
+        margin-top: -29.5%;
+        background-color: white;
+        text-align: center;
+    }
+    #form {
+        width: 250px;
+        margin: 0 auto;
+        height: 50px;
+      }
+      
+      #form p {
+        text-align: center;
+      }
+      
+      #form label {
+        font-size: 20px;
+      }
+      
+      input[type="radio"] {
+        display: none;
+      }
+      
+      label {
+        color: grey;
+      }
+      
+      .clasificacion {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+      }
+      
+      label:hover,
+      label:hover ~ label {
+        color: orange;
+      }
+      
+      input[type="radio"]:checked ~ label {
+        color: orange;
+      }
     .promo{
         width: 98%;
         text-align: center;
