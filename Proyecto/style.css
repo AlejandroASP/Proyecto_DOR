@@ -316,7 +316,7 @@ Tamaño Teléfono
         text-align: center;
         display: grid;
         margin: auto;
-        width: 100%;
+        width: 100.6%;
         margin-top: 3.8em;
     }
     .notice_game{
@@ -342,7 +342,7 @@ Tamaño Teléfono
         text-align: center;
         display: grid;
         margin: auto;
-        width: 100%;
+        width: 100.6%;
         margin-top: 3.8em;
     }
     .notice_updates{
@@ -367,7 +367,7 @@ Tamaño Teléfono
         text-align: center;
         display: grid;
         margin: auto;
-        width: 100%;
+        width: 100.6%;
         margin-top: 3.8em;
     }
     .container_login {
