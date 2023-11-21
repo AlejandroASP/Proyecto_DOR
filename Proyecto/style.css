@@ -13,7 +13,6 @@ body{
 /* 
 Tamaño Teléfono
 */
-@media screen and (min-width: 425px){
     body{
         background-color: blueviolet;
         margin: 0;
@@ -117,6 +116,7 @@ Tamaño Teléfono
     }
     .container_img_prod img{
         width: 100%;
+        height: 100%;
     }
     .text_product {
         width: 95%;
@@ -150,7 +150,7 @@ Tamaño Teléfono
         background-color: white;
         height: 1.5em;
         width: 12.8em;
-        margin-top: -0.5em;
+        margin-top: -1em;
         text-align: center;
     }
     label:hover,
@@ -249,19 +249,21 @@ Tamaño Teléfono
     }
     .container_perfil{
         width:23.5em;
-        display: grid;
-        margin-top: 0.1em;
+        margin: 0 auto;
         background-color: #6b6a6a;
     }
     .user_config{
         display: grid;
         width: 23.1em;
-        height: 5em;
+        height: 11em;
         background-color: #333;
         color: white;
         text-align: center;
         border-style: solid;
         border-color: black;
+    }
+    .user_config > h1{
+        margin-top: 20%;
     }
     .user_passwd {
         height: 2em;
@@ -293,7 +295,6 @@ Tamaño Teléfono
     }
     .container_email{
         border-style: solid;
-        margin:2em;
         width: 19em;
         height: 7em;
         text-align: center;
@@ -361,7 +362,6 @@ Tamaño Teléfono
         margin-top: 0.5em;
         background-image: url(images/recompensa.jpg);
         background-size: cover;
-        
     }
     .notice_products a{
         width: 99%;
@@ -434,10 +434,10 @@ Tamaño Teléfono
         width: 100%;
         background-color: #6b6a6a;
         display: grid;
-        border-style: solid;
+        margin-top: 1em;
     }
     .container_parameters {
-        height: 50%;
+        height: 70%;
         width: 80%;
         background: linear-gradient(to bottom, #6b6a6a, #000000);
         display: grid;
@@ -446,22 +446,22 @@ Tamaño Teléfono
         margin-top: 5em;
         color: white;
       }
-    .imagen {
+    .imagen img{
         display: grid;
         margin: auto;
-        height: 45em;
+        height: 45%;
     }
     .user_name {
         display: grid;
         margin: auto;
         text-align: center;
-        margin-top: -38em;
+        margin-top: -23em;
     }
     .user_passwd {
         display: grid;
         margin: auto;
         text-align: center;
-        margin-top: -31em;
+        margin-top: -17em;
     }
     .container_email input:valid{
         background-color: lightgreen;
@@ -476,7 +476,7 @@ Tamaño Teléfono
     .container_boton {
         display: grid;
         margin: auto;
-        margin-top: -26em;
+        margin-top: -13em;
     }
     footer {
         background-color: #333;
@@ -486,9 +486,6 @@ Tamaño Teléfono
         display: flex;
         flex-direction: column;
     }
-}
-
-
 /* 
 Tamaño Escritorio pequeño/tablet
 */
@@ -515,16 +512,17 @@ Tamaño Escritorio pequeño/tablet
         text-shadow: 5px 5px 1px #6441A5;
         margin-top: -3.2em;
         font-size: x-large;
-        margin-left: 1em;
+        margin-left: -20%;
     }
     .logo {
-        width: 5em;
+        width: 10em;
         height: 4em;
         background-image: url(images/Clickme.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         margin-top: 1em;
+        margin-left: -130%;
     }
     .logo a {
         display: block;
@@ -533,8 +531,8 @@ Tamaño Escritorio pequeño/tablet
     }
     .catalogue_log_in {
         width: 5em;
-        margin-left: 42em;
-        margin-top: -4em;
+        margin-left: 30em;
+        margin-top: -5.2em;
         height: 5em;
     }
     .catalogue_log_in > a {
@@ -544,12 +542,12 @@ Tamaño Escritorio pequeño/tablet
         text-align: center;
         color: black;
         background-color: white;
-        font-size: small;
+        font-size:medium;
+        height: 30%;
     }
     .container {
         display: grid;
-        margin: auto;
-        margin-top: -0.5em;
+        margin:0 auto;
     }
     .container_content {
         background-color: #3a3939;
@@ -569,7 +567,7 @@ Tamaño Escritorio pequeño/tablet
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(3, 1fr);
         gap: 8px;
-        margin-left: 2em;
+        margin-left: 3em;
         margin-top: 1em;
     }
     .promo{
@@ -577,19 +575,56 @@ Tamaño Escritorio pequeño/tablet
         text-align: center;
         background-color: blueviolet;
         border-style: solid;
-        height: 3%;
-        margin-top: 2em;
+        height: 5%;
+        margin-top: -7em;
     }
-    .products  p{
+    .products > p{
         margin-top: 1em;
         margin-left: 7em;
     }
-    .products  div{
+    .products > div{
         background-color: white;
+        height: 100%;
+        width: 90%;
+        margin-top: 5%;
     }
-    .products  button{
-        margin-left: 12.5em;
+    .products > div > img{
+        width: 100%;
+        margin:0 auto;
+    }
+    .products > div > p{
+        margin: auto;
+    }
+    .products > div > button{
+        margin: auto;
+    }
+    .products_promo {
+        width: 740px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        margin-left: 3em;
         margin-top: 1em;
+    }
+    .products_promo > p{
+        margin-top: 1em;
+        margin-left: 7em;
+    }
+    .products_promo > div{
+        background-color: white;
+        height: 100%;
+        width: 90%;
+    }
+    .products_promo > div > img{
+        width: 100%;
+        margin:0 auto;
+    }
+    .products_promo > div > p{
+        margin: auto;
+    }
+    .products_promo > div > button{
+        margin: auto;
     }
     .elements_catalogue {
         list-style: none;
@@ -597,13 +632,12 @@ Tamaño Escritorio pequeño/tablet
         border-style: solid;
         background-color: #333;
         height: 2em;
-        width: 45.1em;
+        width: 92%;
     }
     .elements_catalogue > li {
-        margin-left: 10.5em;
         font-size:medium;
         color: white;
-        margin-top: 0.5em;
+        margin: auto;
     }
     .user_img {
         border-radius: 50%;
@@ -646,8 +680,9 @@ Tamaño Escritorio pequeño/tablet
         background-color: white;
     }
     .container_perfil {
-        height: 47.96em;
-        margin-top: 0.1em;
+        height: 120%;
+        width: 100%;
+        margin-top: 2%;
         background-color: #6b6a6a;
     }
     .container_config {
@@ -666,18 +701,17 @@ Tamaño Escritorio pequeño/tablet
         border-style: solid;
         border-color: black;
     }
+    .user_config > h1{
+        margin:auto;
+    }
     .container_passw {
         border-style: solid;
-        margin: 2em;
         width: 19em;
         height: 7em;
         text-align: center;
         margin: auto;
         margin-bottom: 5em;
-        margin-top: 3.5em;
-    }
-    .passw {
-        margin-left: 2em;
+        margin-top: -13%;
     }
     .container_email {
         border-style: solid;
@@ -688,9 +722,8 @@ Tamaño Escritorio pequeño/tablet
         margin: auto;
     }
     .container_landing {
-        height: 45.8em;
-        width: 47.60em;
-        border: solid;
+        height: 100%;
+        width: 100%;
         background-color: #6b6a6a;
     }
     .carousel {
@@ -758,7 +791,6 @@ Tamaño Escritorio pequeño/tablet
         margin: auto;
         text-decoration: none;
         color: white;
-        border-style: solid;
         text-align:end;
         font-size: xx-large;
     }
@@ -780,7 +812,6 @@ Tamaño Escritorio pequeño/tablet
         margin: auto;
         text-decoration: none;
         color: white;
-        border-style: solid;
         text-align:end;
         font-size: xx-large;
     }
@@ -800,14 +831,13 @@ Tamaño Escritorio pequeño/tablet
         margin: auto;
         text-decoration: none;
         color: white;
-        border-style: solid;
         font-size: xx-large;
+        margin-top: -1%;
     }
     .container_login {
         width: 100%;
         background-color: #6b6a6a;
         display: grid;
-        border-style: solid;
     }
     .container_parameters {
         height: 50%;
@@ -824,17 +854,23 @@ Tamaño Escritorio pequeño/tablet
         margin: auto;
         height: 45em;
     }
+    .imagen img{
+        display: grid;
+        margin: auto;
+        height: 35%;
+        margin-top: -15%;
+    }
     .user_name {
         display: grid;
         margin: auto;
         text-align: center;
-        margin-top: -35em;
+        margin-top: -34em;
     }
     .user_passwd {
         display: grid;
         margin: auto;
         text-align: center;
-        margin-top: -30em;
+        margin-top: -28em;
     }
     .container_email input:valid{
         background-color: lightgreen;
@@ -852,9 +888,9 @@ Tamaño Escritorio pequeño/tablet
         margin-top: -24em;
     }
     footer {
+        width: 100%;
         background-color: #333;
         color: #fff;
-        padding: 20px;
         text-align: center;
     }
     .footer-section {
@@ -866,6 +902,54 @@ Tamaño Escritorio pequeño/tablet
         font-size: 16px;
         margin-bottom: 10px;
     }
+
+    /*Pag prod tablet*/
+    .container_img_prod {
+        width: 100%;
+        display: flex;
+    }
+    .container_img_prod > img{
+        width: 50%;
+        height: 100%;
+        margin-top: -0%;
+        margin-left: -1%;
+    }
+    .text_product > p{
+        font-size:1.3rem;
+    }
+    .text_product > .code > a{
+        text-decoration: none;
+        width: 50%;
+        color: red;
+    }
+    .container_rating {
+        margin: auto;
+        margin-left: -71%;
+    }
+    input[type="radio"] {
+        display: none;
+    }
+    label {
+        color: grey;
+    }
+    .clasificacion {
+        direction:rtl;
+        unicode-bidi: bidi-override;
+        background-color: white;
+        width: 62%;
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 4%;
+    }
+    label:hover,
+    label:hover ~ label {
+        color: orange;
+    }
+      
+    input[type="radio"]:checked ~ label {
+        color: orange;
+    }
+    
 }
 
 
@@ -886,48 +970,47 @@ Tamaño Escritorio pequeño/tablet
         background-color: #333;
         color: #fff;
         text-align: center;
-        width: 118em;
+        width: 100%;
     }
-    .catalogue_bar  h1 {
+    .catalogue_bar {
         display: grid;
-        margin: auto;
-        color: rgb(255, 255, 255);
-        text-shadow: 1px 5px 1px #6441A5;
-        font-size: xx-large;
-        margin-top: -3em;
-        font-family: "twitchy-tv";
-        width: 20em;
+        margin:0 auto;
+        width: 50%;
     }
-    h1 a {
-        text-decoration: none;
+
+    .catalogue_bar h1{
         color: white;
-        display: block;
+        text-shadow: 5px 5px 1px #6441A5;
+        margin-top: -2.9em;
+        font-family: "twitchy-tv";
+        font-size:x-large;
+        margin-left: -10em;
     }
     .logo {
-        width: 20em;
-        height: 5em;
+        width: 25%;
+        height: 80%;
         background-image: url(images/Clickme.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        margin-top: 0.5em;
+        margin-left: -92em;
     }
-    .logo a {
-        display: block;
-        height: 100%;
-        width: 100%;
+    
+    .catalogue_log_in{
+        width: 5em;
+        margin-left: 62em;
+        margin-top: -3.5em;
+        height: 5em;
     }
-    .catalogue_log_in {
-        width: 15em;
-        height: 2em;
-        margin-left: 103em;
-        margin-top: -1em;
-    }
-    .catalogue_log_in > a {
+    .catalogue_log_in  a {
         text-decoration: none;
+        display: inline-block;
+        margin-top: 0.5em;
+        text-align: center;
         color: black;
         background-color: white;
-        font-size:large;
-        margin-left: 0.5em;
+        font-size: small;
     }
     .container {
         display: grid;
@@ -991,9 +1074,9 @@ Tamaño Escritorio pequeño/tablet
     }
     .elements_catalogue > li {
         margin-left: 39em;
-        font-size:medium;
+        font-size:small;
         color: white;
-        margin-top: 0.5em;
+        margin: auto;
     }
     .user_img {
         border-radius: 50%;
@@ -1238,28 +1321,27 @@ Tamaño Escritorio pequeño/tablet
         width: 100%;
         background-color: #6b6a6a;
         display: grid;
-        border-style: solid;
+
     }
     .container_parameters {
-        height: 50%;
+        height: 100%;
         width: 20%;
         background: linear-gradient(to bottom, #6b6a6a, #000000);
         display: grid;
         margin: auto;
-        border-style: solid;
         margin-top: 5em;
         color: white;
       }
-    .imagen {
+    .imagen img{
         display: grid;
         margin: auto;
-        height: 45em;
+        height: 50%;
     }
     .user_name {
         display: grid;
         margin: auto;
         text-align: center;
-        margin-top: -35em;
+        margin-top: -15em;
     }
     .user_passwd {
         display: grid;
@@ -1286,5 +1368,57 @@ Tamaño Escritorio pequeño/tablet
     h3 {
         font-size: 16px;
         margin-bottom: 10px;
+    }
+    /*Apart prod escritorio*/
+    .container_img_prod {
+        width: 51.2%;
+        display: flex;
+    }
+    .container_img_prod img{
+        width: 100%;
+        height: 100%;
+    }
+    .text_product {
+        width: 95%;
+        height:73.8%;
+        background-color: white;
+        text-align: center;
+    }
+    .text_product .code{
+        margin-top: 18%;
+        margin-top: 30%;
+    }
+    .text_product .code a{
+        text-decoration: none;
+        width: 50%;
+        color: red;
+    }
+    .container_rating {
+        margin-left: -71%;
+        margin-top: 10%;
+    }
+    input[type="radio"] {
+        display: none;
+    }
+    label {
+        color: grey;
+    }
+    .clasificacion {
+        direction:rtl;
+        unicode-bidi: bidi-override;
+        margin-left: -20.4%;
+        background-color: white;
+        height: 1.5em;
+        width: 12.8em;
+        margin-top: -1em;
+        text-align: center;
+    }
+    label:hover,
+    label:hover ~ label {
+        color: orange;
+    }
+      
+    input[type="radio"]:checked ~ label {
+        color: orange;
     }
 }
