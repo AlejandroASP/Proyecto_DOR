@@ -112,18 +112,15 @@ Tamaño Teléfono
         width: 49em;
     }
     .container_img_prod {
-        width: 50%;
-        display: grid;
-        border-style: solid;
+        width: 51.2%;
+        display: flex;
     }
     .container_img_prod img{
         width: 100%;
     }
     .text_product {
-        margin-left: 51.5%;
-        width: 48.5%;
-        height:73.5%;
-        margin-top: -33.4%;
+        width: 95%;
+        height:73.8%;
         background-color: white;
         text-align: center;
     }
@@ -153,6 +150,7 @@ Tamaño Teléfono
         background-color: white;
         height: 1.5em;
         width: 12.8em;
+        margin-top: -0.5em;
         text-align: center;
     }
     label:hover,
