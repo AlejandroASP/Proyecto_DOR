@@ -202,7 +202,7 @@ Tamaño Teléfono
         height: 60%;
         margin-left: 0.5em;
         display: flex;
-        margin-top: 0.5em;
+        margin-top: 3%;
     }
     .elements_catalogue > li{
         margin: auto;
@@ -676,6 +676,7 @@ Tamaño Escritorio pequeño/tablet
         background-color: #333;
         height: 2em;
         width: 92%;
+        margin-top: 5%;
     }
     .elements_catalogue > li {
         font-size:medium;
@@ -1198,6 +1199,7 @@ Tamaño Escritorio pequeño/tablet
         background-color: #333;
         height: 2em;
         width: 97%;
+        margin-top: 1%;
     }
     .elements_catalogue > li {
         margin-left: 39em;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../style.css">
+    <link id="css-cambia" rel="stylesheet" href="../../style.css">
     <title>Catalogo</title>
 </head>
 <body>
@@ -17,6 +17,10 @@
                 <div class="catalogue_log_in">
                     <a href="../user/userInfo.html">Configuración</a>
                     <a href="../catalogue/catalogue.html">Cerrar Sesión</a>
+                    <label class="cambiar">
+                        <input id="cambiar-modo" type="checkbox">
+                        <span class="slider">Modo dia</span>
+                    </label>
                 </div>
             </div>
         </nav>
@@ -59,16 +63,7 @@
                         <p>Hola</p>
                         <button><a href="../products/producto.html">Reclamar</a></button>
                     </div>
-                    <div>
-                        <img src="../../images/recompensa.jpg" alt="">
-                        <p>Hola</p>
-                        <button><a href="../products/producto.html">Reclamar</a></button>
-                    </div>
-                    <div>
-                        <img src="../../images/recompensa.jpg" alt="">
-                        <p>Hola</p>
-                        <button><a href="../products/producto.html">Reclamar</a></button>
-                    </div>
+
                 </section>
                 <div class="promo"><h2>Articulos en Promoción</h2></div>
                 <div class="container_content">
@@ -128,5 +123,18 @@
           <h3>Sobre nosotros</h3>
         </div>
       </footer>
+      <script>
+        const cambiar = document.getElementById("cambiar-modo");
+        const link = document.getElementById("css-cambia");
+        cambiar.addEventListener('change',function(){
+            if(cambiar.checked){
+                link.href = "../../style_dia.css";
+            }
+            else{
+                link.href = "../../style.css"
+                location.reload();
+            }
+        });
+      </script>
 </body>
 </html>

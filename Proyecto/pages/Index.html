@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+    <link id="css-cambia" rel="stylesheet" href="../../style.css">
     <title>Catalogo</title>
 </head>
 <body>
@@ -17,6 +17,10 @@
             <div class="catalogue_log_in">
                 <a href="user/login.html">Registrate</a>
                 <a href="catalogue/catalogue_logueado.html">Inicia Sesión</a>
+                <label class="cambiar">
+                  <input id="cambiar-modo" type="checkbox">
+                  <span class="slider">Modo dia</span>
+                </label>
             </div>
         </div>
     </nav>
@@ -71,5 +75,18 @@
         <h3>Sobre nosotros</h3>
       </div>
     </footer>
+    <script>
+      const cambiar = document.getElementById("cambiar-modo");
+      const link = document.getElementById("css-cambia");
+      cambiar.addEventListener('change',function(){
+          if(cambiar.checked){
+              link.href = "../../style_dia.css";
+          }
+          else{
+              link.href = "../../style.css"
+              location.reload();
+          }
+      });
+    </script>
 </body>
 </html>

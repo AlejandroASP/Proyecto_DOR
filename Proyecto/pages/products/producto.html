@@ -17,7 +17,10 @@
                 <div class="catalogue_log_in">
                     <a href="../user/login.html">Registrate</a>
                     <a href="../catalogue/catalogue_logueado.html">Inicia Sesión</a>
-                    <a id="cambio">Modo dia</a>
+                    <label class="cambiar">
+                        <input id="cambiar-modo" type="checkbox">
+                        <span class="slider">Modo dia</span>
+                    </label>
                 </div>
             </div>
         </nav>
@@ -96,8 +99,17 @@
         </div>
       </footer>
       <script>
-        const cambiar = document.getElementById("modo");
-        const link = document.getElementById("css-cambia")
+        const cambiar = document.getElementById("cambiar-modo");
+        const link = document.getElementById("css-cambia");
+        cambiar.addEventListener('change',function(){
+            if(cambiar.checked){
+                link.href = "../../style_dia.css";
+            }
+            else{
+                link.href = "../../style.css"
+                location.reload();
+            }
+        });
       </script>
 </body>
 </html>
