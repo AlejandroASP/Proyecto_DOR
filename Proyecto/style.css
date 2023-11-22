@@ -956,20 +956,12 @@ Tamaño Escritorio pequeño/tablet
 
 /* Escritorio grande */
 @media screen and (min-width: 1200px){
-    /* :root {
-        --color-primario: #38393b;
-        --color-secundario: ;
-        --color-terciario: #0000FF;
-      } */
     body {
         background-color: blueviolet;
         margin: 0;
         padding: 0;
     }
     header {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
         width: 100%;
     }
     .catalogue_bar {
@@ -977,40 +969,41 @@ Tamaño Escritorio pequeño/tablet
         margin:0 auto;
         width: 50%;
     }
-
+    .catalogue_bar > div{
+        display: grid;
+        margin: auto;
+    }
     .catalogue_bar h1{
         color: white;
         text-shadow: 5px 5px 1px #6441A5;
-        margin-top: -2.9em;
         font-family: "twitchy-tv";
-        font-size:x-large;
-        margin-left: -10em;
+        font-size:xx-large;
+        margin-top: -2%;
+        margin-left: -30%;
     }
     .logo {
         width: 25%;
-        height: 80%;
+        height: 300%;
         background-image: url(images/Clickme.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        margin-top: 0.5em;
-        margin-left: -92em;
+        margin-left: -122em;
     }
-    
     .catalogue_log_in{
         width: 5em;
-        margin-left: 62em;
-        margin-top: -3.5em;
+        margin-left: 82em;
+        margin-top: -5em;
         height: 5em;
     }
     .catalogue_log_in  a {
         text-decoration: none;
         display: inline-block;
-        margin-top: 0.5em;
+        margin-top: 0.2em;
         text-align: center;
         color: black;
         background-color: white;
-        font-size: small;
+        font-size: large;
     }
     .container {
         display: grid;
@@ -1019,6 +1012,7 @@ Tamaño Escritorio pequeño/tablet
     .container_content {
         background-color: #3a3939;
         width: 100%;
+        margin:0 auto;
     }
     div > img{
         width: 12em;
@@ -1034,22 +1028,16 @@ Tamaño Escritorio pequeño/tablet
         gap: 50px;
         margin-left: 15em;
     }
-    .promo{
-        width: 100%;
-        text-align: center;
-        background-color: blueviolet;
-        border-style: solid;
-        height: 3%;
-        margin-top: 2em;
-    }
     .products  p{
         display: grid;
         margin: auto;
-        margin-left: 10em;
+        font-size: large;
         margin-top: 1em;
     }
     .products  div{
         background-color: white;
+        height: 90%;
+        width: 100%;
         margin-top: 1em;
     }
     .products img{
@@ -1060,9 +1048,51 @@ Tamaño Escritorio pequeño/tablet
         margin-top: -1em;
     }
     .products  button{
-        margin-left:19em;
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+    .promo{
+        width: 99%;
+        display: grid;
+        margin: auto;
+        text-align: center;
+        background-color: red;
+        height: 4%;
+        margin-top: 5em;
+    }
+    .products_promo{
+        width: 1366px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+        margin-left: 15em;
+    }
+    .products_promo  p{
+        display: grid;
+        margin: auto;
+        margin-top: 1em;
+    }
+    .products_promo  div{
+        background-color: white;
+        height: 90%;
+        width: 100%;
+        margin-top: 2em;
+    }
+    .products_promo img{
+        width: 21.1em;
+        height: 15em;
+        display: grid;
+        margin: auto;
+        margin-top: -1em;
+    }
+    .products_promo  button{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .products_promo  button a{
+        text-decoration: none;
+        color: black;
     }
     .elements_catalogue {
         list-style: none;
@@ -1070,11 +1100,11 @@ Tamaño Escritorio pequeño/tablet
         border-style: solid;
         background-color: #333;
         height: 2em;
-        width: 100%;
+        width: 97%;
     }
     .elements_catalogue > li {
         margin-left: 39em;
-        font-size:small;
+        font-size:large;
         color: white;
         margin: auto;
     }
@@ -1128,13 +1158,19 @@ Tamaño Escritorio pequeño/tablet
     }
     .user_config {
         display: grid;
-        width:100%;
+        width:99.7%;
         height: 5em;
+        margin: auto;
         background-color: #333;
         color: white;
         text-align: center;
         border-style: solid;
         border-color: black;
+        margin-top: 0.5%;
+    }
+    .user_config > h1{
+       display: grid;
+       margin: auto;
     }
     .container_passw {
         border-style: solid;
@@ -1144,7 +1180,7 @@ Tamaño Escritorio pequeño/tablet
         text-align: center;
         margin: auto;
         margin-bottom: 5em;
-        margin-top: 8em;
+        margin-top: 3em;
     }
     .passw {
         margin-left: 2em;
@@ -1169,8 +1205,9 @@ Tamaño Escritorio pequeño/tablet
         background-color: transparent;
     }
     .container_landing {
-        height: 45.8em;
-        width: 99%;
+        width: 97%;
+        margin: auto;
+        margin-top: 0.5%;
         background-color: #6b6a6a;
     }
     .carousel {
@@ -1239,7 +1276,6 @@ Tamaño Escritorio pequeño/tablet
         margin: auto;
         text-decoration: none;
         color: white;
-        border-style: solid;
         text-align:center;
         font-size: xx-large;
     }
@@ -1271,7 +1307,6 @@ Tamaño Escritorio pequeño/tablet
         margin: auto;
         text-decoration: none;
         color: white;
-        border-style: solid;
         text-align:end;
         font-size: xx-large;
     }
@@ -1303,7 +1338,6 @@ Tamaño Escritorio pequeño/tablet
         margin: auto;
         text-decoration: none;
         color: white;
-        border-style: solid;
         text-align:end;
         font-size: xx-large;
     }
@@ -1359,7 +1393,7 @@ Tamaño Escritorio pequeño/tablet
         color: #fff;
         height: 10em;
         text-align: center;
-        width: 99%;
+        width: 100%;
     }
     .footer-section {
         display: inline-block;
@@ -1369,33 +1403,38 @@ Tamaño Escritorio pequeño/tablet
         font-size: 16px;
         margin-bottom: 10px;
     }
+    
     /*Apart prod escritorio*/
     .container_img_prod {
-        width: 51.2%;
+        width: 99%;
         display: flex;
     }
     .container_img_prod img{
-        width: 100%;
-        height: 100%;
+        width: 50%;
     }
     .text_product {
-        width: 95%;
-        height:73.8%;
         background-color: white;
         text-align: center;
+        font-size: x-large;
+        margin: auto;
+        margin-left: 5%;
+        height: 20%;
     }
-    .text_product .code{
-        margin-top: 18%;
-        margin-top: 30%;
+    .text_product > p{
+        margin-top: 5%;
     }
-    .text_product .code a{
+    .text_product > .code{
+        margin-top: 5%;
+    }
+    .text_product > .code > a{
         text-decoration: none;
         width: 50%;
         color: red;
     }
-    .container_rating {
-        margin-left: -71%;
-        margin-top: 10%;
+    .text_product > .container_rating {
+        margin-left: -40%;
+        margin-top: 28%;
+        width: 100%;
     }
     input[type="radio"] {
         display: none;
@@ -1410,8 +1449,8 @@ Tamaño Escritorio pequeño/tablet
         background-color: white;
         height: 1.5em;
         width: 12.8em;
-        margin-top: -1em;
         text-align: center;
+        font-size: xx-large;
     }
     label:hover,
     label:hover ~ label {
