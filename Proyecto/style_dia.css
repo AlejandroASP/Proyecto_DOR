@@ -19,8 +19,7 @@ Tamaño Teléfono
         padding: 0;
     }
     header {
-        background-color: #333;
-        color: #fff;
+        background-color: rgb(151, 150, 150);
         text-align: center;
         width: 100%;
     }
@@ -60,8 +59,8 @@ Tamaño Teléfono
         display: inline-block;
         margin-top: 0.5em;
         text-align: center;
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: black;
         font-size: small;
     }
     .container{
@@ -150,7 +149,7 @@ Tamaño Teléfono
         background-color: white;
         height: 1.5em;
         width: 12.8em;
-        margin-top: -4em;
+        margin-top: -1em;
         text-align: center;
     }
     label:hover,
@@ -479,55 +478,12 @@ Tamaño Teléfono
         margin-top: -13em;
     }
     footer {
-        background-color: #333;
+        background-color: rgb(151, 150, 150);
         margin-top: 5%;
-        color: #fff;
+        color: black;
         width: 100%;
         display: flex;
         flex-direction: column;
-    }
-    table{
-        margin-top: 2%;
-        display: flex;
-        justify-content: center;
-        border-collapse: collapse;
-    }
-    td{
-        border: solid;
-        padding: 10px;
-        background-color: wheat;
-        font-size: large;
-    }
-    .other_products{
-        width: 50%;
-        height: 50%;
-        margin:0 auto;
-    }
-    .other_products > h1{
-        text-align: center;
-        color: white;
-    }
-    .other_products > img{
-        width: 100%;
-        margin: auto;
-    }
-    .formulario{
-        color: white;
-        position: relative;
-        display: grid;
-    }
-    .formulario > h1{
-        text-align: center;
-    }
-    .comentarios{
-        width: 100%;
-    }
-    .comentarios > h1{
-        color: white;
-        text-align: center;
-    }
-    .comentarios > p{
-        background-color: white;
     }
 /* 
 Tamaño Escritorio pequeño/tablet
@@ -539,8 +495,7 @@ Tamaño Escritorio pequeño/tablet
         padding: 0;
     }
     header {
-        background-color: #333;
-        color: #fff;
+        background-color: rgb(151, 150, 150);
         text-align: center;
         width: 100%;
         margin-top: -1em;
@@ -583,8 +538,8 @@ Tamaño Escritorio pequeño/tablet
         display: inline-block;
         margin-top: 1em;
         text-align: center;
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: black;
         font-size:medium;
         height: 30%;
     }
@@ -935,6 +890,7 @@ Tamaño Escritorio pequeño/tablet
         background-color: #333;
         color: #fff;
         text-align: center;
+        background-color: rgb(151, 150, 150);
     }
     .footer-section {
         flex: 1;
@@ -945,20 +901,7 @@ Tamaño Escritorio pequeño/tablet
         font-size: 16px;
         margin-bottom: 10px;
     }
-    .other_products{
-        width: 50%;
-        height: 50%;
-        margin:0 auto;
-    }
-    .other_products > h1{
-        text-align: center;
-        color: white;
-    }
-    .other_products > img{
-        width: 100%;
-        height: 50%;
-        margin: auto;
-    }
+
     /*Pag prod tablet*/
     .container_img_prod {
         width: 100%;
@@ -995,7 +938,7 @@ Tamaño Escritorio pequeño/tablet
         width: 62%;
         font-size: xx-large;
         text-align: center;
-        margin-top: -6%;
+        margin-top: 4%;
     }
     label:hover,
     label:hover ~ label {
@@ -1005,50 +948,9 @@ Tamaño Escritorio pequeño/tablet
     input[type="radio"]:checked ~ label {
         color: orange;
     }
-    table{
-        margin-top: 2%;
-        display: flex;
-        justify-content: center;
-        border-collapse: collapse;
-    }
-    td{
-        border: solid;
-        padding: 30px;
-        background-color: wheat;
-        font-size: x-large;
-    }
-    .other_products{
-        width: 80%;
-        height: 50%;
-    }
-    .other_products > h1{
-        text-align: center;
-        color: white;
-    }
-    .other_products > img{
-        width: 100%;
-        margin: auto;
-    }
-    .formulario{
-        color: white;
-        position: relative;
-        display: grid;
-    }
-    .formulario > h1{
-        text-align: center;
-    }
-    .comentarios{
-        width: 100%;
-    }
-    .comentarios > h1{
-        color: white;
-        text-align: center;
-    }
-    .comentarios > p{
-        background-color: white;
-        
-    }
+    
 }
+
 
 
 /* Escritorio grande */
@@ -1060,6 +962,7 @@ Tamaño Escritorio pequeño/tablet
     }
     header {
         width: 100%;
+        background-color: rgb(151, 150, 150);
     }
     .catalogue_bar {
         display: grid;
@@ -1098,8 +1001,8 @@ Tamaño Escritorio pequeño/tablet
         display: inline-block;
         margin-top: 0.2em;
         text-align: center;
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: black;
         font-size: large;
     }
     .container {
@@ -1486,7 +1389,7 @@ Tamaño Escritorio pequeño/tablet
         margin-top: -24em;
     }
     footer {
-        background-color: #333;
+        background-color: rgb(151, 150, 150);
         color: #fff;
         height: 10em;
         text-align: center;
@@ -1508,7 +1411,6 @@ Tamaño Escritorio pequeño/tablet
     }
     .container_img_prod img{
         width: 50%;
-        margin-top: -0%;
     }
     .text_product {
         background-color: white;
@@ -1543,13 +1445,12 @@ Tamaño Escritorio pequeño/tablet
     .clasificacion {
         direction:rtl;
         unicode-bidi: bidi-override;
-        margin-left: -41.2%;
-        margin-top: -10.5%;
+        margin-left: -20.4%;
         background-color: white;
         height: 1.5em;
-        width: 14.77em;
+        width: 12.8em;
         text-align: center;
-        font-size: 50px;
+        font-size: xx-large;
     }
     label:hover,
     label:hover ~ label {
@@ -1558,49 +1459,5 @@ Tamaño Escritorio pequeño/tablet
       
     input[type="radio"]:checked ~ label {
         color: orange;
-    }
-    table{
-        margin-top: 2%;
-        display: flex;
-        justify-content: center;
-        border-collapse: collapse;
-    }
-    td{
-        border: solid;
-        padding: 50px;
-        background-color: wheat;
-    }
-    .other_products{
-        width: 100%;
-        height: 50%;
-    }
-    .other_products > h1{
-        text-align: center;
-        color: white;
-    }
-    .other_products > img{
-        width: 50%;
-        height: 50%;
-        display: grid;
-        margin: auto;
-    }
-    .formulario{
-        color: white;
-        position: relative;
-        display: grid;
-    }
-    .formulario > h1{
-        text-align: center;
-    }
-    .comentarios{
-        width: 100%;
-    }
-    .comentarios > h1{
-        color: white;
-        text-align: center;
-    }
-    .comentarios > p{
-        background-color: white;
-
     }
 }

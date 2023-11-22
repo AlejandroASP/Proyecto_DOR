@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../style.css">
+    <link id="css-cambia" rel="stylesheet" href="../../style.css">
     <title>Catalogo</title>
 </head>
 <body>
@@ -17,6 +17,7 @@
                 <div class="catalogue_log_in">
                     <a href="../user/login.html">Registrate</a>
                     <a href="../catalogue/catalogue_logueado.html">Inicia Sesión</a>
+                    <a id="cambio">Modo dia</a>
                 </div>
             </div>
         </nav>
@@ -32,6 +33,7 @@
                     <img src="../../images/recompensa.jpg">
                     <div class="text_product">
                         <p>Titulo Producto</p>
+                        <p>Descripción del producto</p>
                         <p class="code"><a href="#">Obtener código</a></p>
                         <div class="container_rating">
                             <p class="clasificacion">
@@ -49,22 +51,35 @@
                           </div>
                     </div>
                 </div>
-                <div>
+                <div class="caja_tabla">
                     <table>
                         <tr>
-                            <th>asdfasf</th>
-                            <th>asdfasf</th>
-                            <th>asdfasf</th>
-                            <th>asdfasf</th>
+                            <td>Plataforma</td>
+                            <td>hola</td>
+                            <td>hola</td>
                         </tr>
                         <tr>
-                            <td>hola</td>
-                            <td>hola</td>
+                            <td>Fecha</td>
                             <td>hola</td>
                             <td>hola</td>
                         </tr>
                     </table>
                 </div>
+                <div class="other_products">
+                    <h1>Otros Productos</h1>
+                    <img src="../../images/recompensa.jpg" alt="">
+                    <div class="comentarios">
+                        <h1>Comentarios</h1>
+                        <p>Usuario: soy un comentario</p>
+                    </div>
+                    
+                    <form action="" class="formulario">
+                        <h1>Formulario de dudas</h1>
+                        <textarea name="" id="" cols="10" rows="10"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+
             </div>
           </div>
         </div>
@@ -80,5 +95,9 @@
           <h3>Sobre nosotros</h3>
         </div>
       </footer>
+      <script>
+        const cambiar = document.getElementById("modo");
+        const link = document.getElementById("css-cambia")
+      </script>
 </body>
 </html>
