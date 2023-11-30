@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link id="css-cambia" rel="stylesheet" href="../../style.css">
+    <link id="css-cambia" rel="stylesheet" href="style.css">
     <title>Catalogo</title>
 </head>
 <body>
@@ -15,8 +15,8 @@
             </a>
             <h1>NotTooLate</h1>
             <div class="catalogue_log_in">
-                <a href="user/login.html">Registrate</a>
-                <a href="catalogue/catalogue_logueado.html">Inicia Sesión</a>
+                <a href="/pages/user/login.html">Registrate</a>
+                <a href="/pages/catalogue/catalogue_logueado.html">Inicia Sesión</a>
                 <label class="cambiar">
                   <input id="cambiar-modo" type="checkbox">
                   <span class="slider">Modo dia</span>
@@ -34,13 +34,13 @@
             
             <div class="carousel-inner">
               <div class="slide">
-                <img src="../images/recompensa.jpg" alt="Imagen 1">
+                <img src="images/recompensa.jpg" alt="Imagen 1">
               </div>
               <div class="slide">
-                <img src="../images/fondo.avif" alt="Imagen 2">
+                <img src="images/fondo.avif" alt="Imagen 2">
               </div>
               <div class="slide">
-                <img src="../images/recompensa.jpg" alt="Imagen 3">
+                <img src="images/recompensa.jpg" alt="Imagen 3">
               </div>
             </div>
 
@@ -53,13 +53,13 @@
 
           <div>
             <div class="notice_products">
-              <a href="catalogue/catalogue.html"><p>Productos</p></a>
+              <a href="/pages/catalogue/catalogue.html"><p>Productos</p></a>
             </div>
             <div class="notice_game">
-              <a href="catalogue/catalogue.html"><p>Juegos</p></a>
+              <a href="/pages/catalogue/catalogue.html"><p>Juegos</p></a>
             </div>
             <div class="notice_updates">
-              <a href="catalogue/catalogue.html"><p>Actualizaciones</p></a>
+              <a href="/pages/catalogue/catalogue.html"><p>Actualizaciones</p></a>
             </div>
           </div>
         </div>
@@ -80,10 +80,10 @@
       const link = document.getElementById("css-cambia");
       cambiar.addEventListener('change',function(){
           if(cambiar.checked){
-              link.href = "../../style_dia.css";
+              link.href = "style_dia.css";
           }
           else{
-              link.href = "../../style.css"
+              link.href = "style.css"
               location.reload();
           }
       });
